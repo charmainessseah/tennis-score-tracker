@@ -5,7 +5,6 @@ class Scoring extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentGameType: "GAME",
             currentGameScoreP1: 0,
             currentGameScoreP2: 0,
             set1ScoreP1: 0,
