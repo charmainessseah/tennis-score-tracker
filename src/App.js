@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Scoring from './Scoring';
 
@@ -7,7 +6,6 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-
       <body>
         <Scoring />
       </body>
