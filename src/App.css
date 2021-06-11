@@ -1,38 +1,82 @@
 .App {
   text-align: center;
+  background-color: darkgray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.player-name {
+  overflow: hidden;
+  margin-top: 40px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.score-P1 {
+  float: left;
+  margin-left: 300px;
+  font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.score-P2 {
+  float: right;
+  margin-right: 300px;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="radio"] {
+  margin: 0 10px 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.set-score-header {
+  margin-top: 90px;
+}
+
+.set-score {
+  height: 80px;
+  width: 50px;
+  font-size: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.game-score {
+  font-size: 40px;
+}
+
+.tiebreak-score {
+  height: 70px;
+  width: 60px;
+  border-radius: 10px;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tiebreak {
+  display: inline;
+}
+#set-1-label {
+  margin-right: 50px;
+}
+
+#set-2-label {
+  margin-right: 50px;
+}
+
+#set-3-label {
+  margin-right: 50px;
+}
+
+#tiebreak-score-label {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#hyphen {
+  display: inline;
 }
